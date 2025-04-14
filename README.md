@@ -25,7 +25,6 @@ This mini-project uses **Ansible** to automate the deployment of an **Apache web
 
 ```bash
 ansible-apache-deploy/
-├── apache_deploy.yml        # Ansible playbook for Apache deployment
 ├── index.html               # Custom HTML landing page
 ├── inventory.ini            # Ansible inventory file (EC2 instance IPs)
 └── README.md   
