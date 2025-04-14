@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Deployed with Ansible</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafb;
+            color: #1f2937;
+        }
+        header {
+            background: linear-gradient(to right, #2563eb, #1e40af);
+            color: white;
+            padding: 2em 1em;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            animation: fadeIn 1.5s ease-in;
+        }
+        main {
+            padding: 2em 1em;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+        main h2 {
+            color: #2563eb;
+            font-size: 1.5rem;
+        }
+        main a {
+            color: #1e40af;
+            text-decoration: none;
+        }
+        main a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 Deployed with Ansible</h1>
+    </header>
+    <main>
+        <h2>Hello from the Cloud!</h2>
+        <p>This page was automatically deployed on an AWS EC2 instance using an <strong>Ansible playbook</strong>. It’s my first step towards mastering Infrastructure as Code (IaC).</p>
+        <p>Curious to know more or want to collaborate? Check out my work on 
+            <a href="https://github.com/SomTakalkar" target="_blank">GitHub</a>.
+        </p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Som Takalkar | Made with ❤️ and Ansible</p>
+    </footer>
+</body>
+</html>
